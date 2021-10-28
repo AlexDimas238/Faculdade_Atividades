@@ -1,20 +1,20 @@
 Algoritmo "Eleitores"
-// Disciplina   : [PROJETO INTEGRADOR DE COMPETÊNCIAS EM ENGENHARIA DE SOFTWARE I - 20h_Turma_01_102021]
+// Disciplina   : [PROJETO INTEGRADOR DE COMPETÃŠNCIAS EM ENGENHARIA DE SOFTWARE I - 20h_Turma_01_102021]
 // Professor   : prof. Gislene Pereira de Oliveira
-// Descrição   : Eleitores da Cidade
+// DescriÃ§Ã£o   : Eleitores da Cidade
 // Autor(a)    : Alexandre Dimas S Reis
 // Data atual  : 27/10/2021
 
-//A prefeitura de uma cidade desenvolveu um programa para cadastro dos moradores, e cada morador (não é especificada a quantidade) deve informar a sua idade. A prefeitura quer obter no final do cadastro a quantidade de moradores que são eleitores obrigatório, a quantidade de moradores que são eleitores facultativos e quantos moradores não são eleitores, de acordo com a tabela a seguir:
-//Tipo de Eleitor; Obrigatório; Facultativo; Não é eleitor
-//Assim, faça um programa em VisualG que receba a idade de cada morador (quantidade indeterminada) e obtenha as quantidades requeridas pela prefeitura.
+//A prefeitura de uma cidade desenvolveu um programa para cadastro dos moradores, e cada morador (nÃ£o Ã© especificada a quantidade) deve informar a sua idade. A prefeitura quer obter no final do cadastro a quantidade de moradores que sÃ£o eleitores obrigatÃ³rio, a quantidade de moradores que sÃ£o eleitores facultativos e quantos moradores nÃ£o sÃ£o eleitores, de acordo com a tabela a seguir:
+//Tipo de Eleitor; ObrigatÃ³rio; Facultativo; NÃ£o Ã© eleitor
+//Assim, faÃ§a um programa em VisualG que receba a idade de cada morador (quantidade indeterminada) e obtenha as quantidades requeridas pela prefeitura.
 
 var idade, obrig, facult, naoeleitor: inteiro
 repeat: caractere
 
 //obrigatorio >= 18 e <= 69
 //Facultativo = 16 ou = 17 ou >= 70
-//Não eleitor < 16
+//NÃ£o eleitor < 16
 
 
 inicio
@@ -42,12 +42,12 @@ inicio
                fimse
            escreval("")
            escreval("---------------------------------------------")
-           escreval("O total de Eleitores Obrigatórios é: ",obrig)
-           escreval("O total de Eleitores Facultativos é: ", facult)
-           escreval("O total de Não Eleitores  é: ", naoeleitor)
+           escreval("O total de Eleitores ObrigatÃ³rios Ã©: ",obrig)
+           escreval("O total de Eleitores Facultativos Ã©: ", facult)
+           escreval("O total de NÃ£o Eleitores  Ã©: ", naoeleitor)
            escreval("---------------------------------------------")
 
-           escreval("Para sair Aperte Digite [SAIR]+[ENTER] ")
+           escreval("Para sair Digite [SAIR] e aperte [ENTER] ")
            escreval("Para novo cadastro Aperte [Enter] ")
            leia(repeat)
         ate (repeat="sair") ou (repeat="Sair") ou (repeat="SAIR")
